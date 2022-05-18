@@ -38,19 +38,26 @@ const Widget = ({ type }) => {
           title: "ORDERS",
           isMoney: false,
           link: "View all orders",
-          icon: <ShoppingCartOutlinedIcon className="icon" />,
+          icon: <ShoppingCartOutlinedIcon 
+          className="icon" 
+          style={{ backgroundColor: "rgba(218, 165, 32, 0.2)", 
+          color: "goldenrod" 
+        }}
+          />,
         }
         break;
 
         case "earning":
         data= {
-          title: "ERNINGS",
+          title: "EARNINGS",
           isMoney: false,
           link: "View net earnings",
           icon: (
           <MonetizationOnOutlinedIcon
           className="icon" 
-          style={{ backgroundColor: "rgba(0, 128, 0, 0.2)", color: "green" }}
+          style={{ backgroundColor: "rgba(0, 128, 0, 0.2)", 
+          color: "green" 
+        }}
           />
           ),
         }
@@ -88,7 +95,7 @@ const Widget = ({ type }) => {
           <KeyboardArrowUpIcon  />
          {diff} %
          </div>
-         {diff.icon}
+         {data.icon}
       </div>
     </div>
   );
