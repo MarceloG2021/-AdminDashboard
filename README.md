@@ -7,3 +7,5 @@
  # 3 
  Se crea el Navbar ahora
  
+ # 4 
+ Creando el React Reusable Widget Components me tope con el error que no me aparece los iconos de los componentes.          
