@@ -67,7 +67,7 @@ const Widget = ({ type }) => {
         data= {
           title: "BALANCE",
           isMoney: true,
-          link: "See all users",
+          link: "See details",
           icon: (
           <AccountBalanceWalletOutlinedIcon 
           className="icon"

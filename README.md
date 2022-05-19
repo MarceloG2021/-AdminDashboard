@@ -8,7 +8,7 @@
  Se crea el Navbar ahora
  
  # 4 
-Continuo con el React Progress Bar Component  
+Continuo con el React Progress Bar Component creando dos carpetas en componentes, chart y featured. Dentro de las mismas con dos archivos con el mismo nombre en jsx y scss.
 
  # 5
   
